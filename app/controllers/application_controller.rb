@@ -14,8 +14,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-  get '/articles/:id' do
-    @article = Article.find_by_id(params[:id])
+  get '/recipes/:id' do
+    @recipe = Recipe.find_by_id(params[:id])
     erb :show
   end
 
