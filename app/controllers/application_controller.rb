@@ -7,6 +7,6 @@ class ApplicationController < Sinatra::Base
   # code actions here!
   get '/' do
     erb :index
-    en
+  end
 
 end
